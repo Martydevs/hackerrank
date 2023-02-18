@@ -66,6 +66,8 @@ def second_highest(secuence: list, n):
 
     return max(secuence)
 
-n = 5
-some_list = list(map(int, input().split(" ")))
-print(second_highest(some_list, n))
+if __name__ == '__main__':
+    n = 5
+    some_list = list(map(int, input().split(" ")))
+    print(second_highest(some_list, n))
+    
