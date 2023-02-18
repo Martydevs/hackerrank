@@ -1,3 +1,5 @@
-# Exercises
+# Coding Exercises | Ejercicios de Código 👩‍💻
 
-Python exercises with HackerRank platform
+*HackerRank* ✨🐱‍👤
+
+Repositorio de ejercicios resueltos con python de HackerRank 🐍
