@@ -52,7 +52,6 @@ n = total de elementos de la lista a guardar
 2 <= n <= 10
 -100 <= lista <= 100
 
-"""
 
 def second_highest(secuence: list, n):
     i = 0
@@ -71,3 +70,4 @@ if __name__ == '__main__':
     some_list = list(map(int, input().split(" ")))
     print(second_highest(some_list, n))
     
+"""
