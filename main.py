@@ -60,12 +60,12 @@ def second_highest(secuence: list, n):
     secuence_set = set(secuence)
     secuence = list(secuence_set)
     
-    if (n > 2 and n < 10) and (secuence[i] > -100 and secuence[i] < 100):
+    if (n >= 2 and n <= 10) and (secuence[i] >= -100 and secuence[i] <= 100):
         highest_score = max(secuence)
         secuence.remove(highest_score)
 
     return max(secuence)
 
-score_list = [-10, 0, 10]
-n = len(score_list)
-print(second_highest(score_list, n))
+n = 5
+some_list = list(map(int, input().split(" ")))
+print(second_highest(some_list, n))
