@@ -25,6 +25,6 @@ def second_highest(secuence: list, n):
     return max(secuence)
 
 if __name__ == '__main__':
-    n = 5
+    n = int(input())
     some_list = list(map(int, input().split(" ")))
     print(second_highest(some_list, n))
