@@ -1,5 +1,6 @@
-arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+list = [1, 2, 'a', 'b', 'c', 3, 4, 5, 6, 7, 8, 9, 10]
 
-even = [x for x in arr if x % 2 == 0]
+def filter_list(list):
+    return [x for x in list if type(x) == int and x > 0]
 
-print(even)
+print(filter_list(list))
